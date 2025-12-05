@@ -1,0 +1,39 @@
+.info .number a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .fixed-link {
+    width: 100%;
+    height: 50px;
+  }
+  .fixed-link a {
+    display: block;
+    line-height: 61px;
+    margin: 0.8rem auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    background-color: rgba(241, 241, 241, 0.7);
+    color: rgba(0, 0, 0, 0.71);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 0px 0px 15px rgba(241, 241, 241, 0.7);
+    border: 2px solid transparent;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    transition: all 300ms ease-in-out;
+  }
+  .fixed-link a:hover {
+    border-radius: 23px;
+    border: 2px solid rgba(241, 241, 241, 0.7);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    color: rgba(241, 241, 241, 0.7);
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .fixed-link a:last-child {
+    margin-bottom: 55px;
+  }
